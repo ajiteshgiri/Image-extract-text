@@ -1,0 +1,20 @@
+
+//First download
+
+//extract text with image for logic
+https://tesseract-ocr.com/#download
+
+//add dependency in your project
+<dependency>
+			<groupId>net.sourceforge.tess4j</groupId>
+			<artifactId>tess4j</artifactId>
+			<version>5.8.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.jai-imageio</groupId>
+			<artifactId>jai-imageio-core</artifactId>
+			<version>1.4.0</version>
+		</dependency>
+// then create ocrService class and OcrController
+> for image uploads
+
