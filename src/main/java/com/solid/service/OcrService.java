@@ -11,7 +11,7 @@ public class OcrService {
         ITesseract tesseract = new Tesseract();
 
         // Set path to tessdata (IMPORTANT)
-        tesseract.setDatapath("C:/Program Files/Tesseract-OCR/tessdata");
+        tesseract.setDatapath("C:/Program Files (x86)/Tesseract-OCR/tessdata");
 
         return tesseract.doOCR(file);
     }
