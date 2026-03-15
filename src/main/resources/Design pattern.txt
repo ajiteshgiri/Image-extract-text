@@ -1,0 +1,39 @@
+ # Singleton Design Pattern
+ ===============================
+
+3 The Singleton design pattern is a creational design pattern that
+restricts the instantiation of a class to a single object and provides
+global access to that instance throughout the application. This pattern
+ensures that only one instance of a class is created and provides a
+global point of access to it.
+
+## Singleton Object
+=====================
+ Singleton object are the object which are instantiated only once for
+project (jvm).
+If we try to get the object then we get same object again and again.
+
+### lets create singleton patter using java
+Lazy way of creating singleton object.
+
+
+
+Factory Design Pattern
+==========================
+When there is superclass and multiple subclasses and we want to get object of subclasses based on input and
+requirement.
+Then we create factory class which the responsibility of creating object based of class based on input.
+
+Advantages of Factory Design Pattern
+====================================
+
+    1. Focus on creating object for interface rather than implementation.
+    2. Loose coupling, more robust code
+
+Builder Design Pattern
+=========================
+while creating object when object contain may attributes there are many problem exists :
+    1. we have to pass many arguments to create object.
+    2. some parameters might be optional
+    3. factory class takes all responsibility for creating object . if the object is heavy then all complexity s the part of factory class.
+So in builder pattern be create object step by step and finally return final object with desired values of attributes.
